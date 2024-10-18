@@ -1,0 +1,475 @@
+fileFormatVersion: 2
+guid: b4e643e9175db5949809aa16e54d937f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Unarmed_Idle_side_right_Frame_0
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 15
+      height: 25
+    spriteID: 5eb734a5b7a92554c9701f132ca0a70c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Unarmed_Idle_side_right_Frame_1
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 37
+      width: 15
+      height: 25
+    spriteID: cee16d1862260c245ad602d490faf8ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 37}
+  - name: Unarmed_Idle_side_right_Frame_2
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 70
+      width: 15
+      height: 25
+    spriteID: 2499a2c952de4124b87ba05f45728121
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 70}
+  - name: Unarmed_Idle_side_right_Frame_3
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 4
+      width: 15
+      height: 25
+    spriteID: 1f9d348f69ad05a4aa8bb9c5b1784799
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 4}
+  - name: Unarmed_Idle_side_right_Frame_4
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 37
+      width: 15
+      height: 25
+    spriteID: 917f5bcc8bf58424a863a4b4fcecbb0c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 37}
+  - name: Unarmed_Idle_side_right_Frame_5
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 70
+      width: 15
+      height: 25
+    spriteID: a5d3a12d35d1b2348a45a8e72da8a00d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 70}
+  - name: Unarmed_Idle_side_right_Frame_6
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 4
+      width: 15
+      height: 25
+    spriteID: 595dd90b0d3c19c48924a19607a69420
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 4}
+  - name: Unarmed_Idle_side_right_Frame_7
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 37
+      width: 15
+      height: 25
+    spriteID: d8e9bdfc47b702c4690a60e0f846f7a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 37}
+  - name: Unarmed_Idle_side_right_Frame_8
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 70
+      width: 15
+      height: 25
+    spriteID: 4c6d25e1a6c0b2b4ea91e189b8a1de22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 70}
+  - name: Unarmed_Idle_side_right_Frame_9
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 4
+      width: 15
+      height: 25
+    spriteID: b56315514e01e2e408afa47140aa98ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 4}
+  - name: Unarmed_Idle_side_right_Frame_10
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 37
+      width: 15
+      height: 25
+    spriteID: dfb540715bce03142989a6d7e63298e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 37}
+  - name: Unarmed_Idle_side_right_Frame_11
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 70
+      width: 15
+      height: 25
+    spriteID: 5191c4de7c3552846ae6850a1040928a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 70}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1055221998
+    name: Unarmed_Idle_side_right
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Unarmed_Idle_side_right_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 25
+        y: 17
+        width: 15
+        height: 25
+      spriteId: 5eb734a5b7a92554c9701f132ca0a70c
+    - name: Unarmed_Idle_side_right_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 25
+        y: 17
+        width: 15
+        height: 25
+      spriteId: cee16d1862260c245ad602d490faf8ed
+    - name: Unarmed_Idle_side_right_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 25
+        y: 17
+        width: 15
+        height: 25
+      spriteId: 2499a2c952de4124b87ba05f45728121
+    - name: Unarmed_Idle_side_right_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 25
+        y: 17
+        width: 15
+        height: 25
+      spriteId: 1f9d348f69ad05a4aa8bb9c5b1784799
+    - name: Unarmed_Idle_side_right_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 25
+        y: 17
+        width: 15
+        height: 25
+      spriteId: 917f5bcc8bf58424a863a4b4fcecbb0c
+    - name: Unarmed_Idle_side_right_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 25
+        y: 17
+        width: 15
+        height: 25
+      spriteId: a5d3a12d35d1b2348a45a8e72da8a00d
+    - name: Unarmed_Idle_side_right_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 25
+        y: 17
+        width: 15
+        height: 25
+      spriteId: 595dd90b0d3c19c48924a19607a69420
+    - name: Unarmed_Idle_side_right_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 25
+        y: 17
+        width: 15
+        height: 25
+      spriteId: d8e9bdfc47b702c4690a60e0f846f7a0
+    - name: Unarmed_Idle_side_right_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 25
+        y: 17
+        width: 15
+        height: 25
+      spriteId: 4c6d25e1a6c0b2b4ea91e189b8a1de22
+    - name: Unarmed_Idle_side_right_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 25
+        y: 17
+        width: 15
+        height: 25
+      spriteId: b56315514e01e2e408afa47140aa98ee
+    - name: Unarmed_Idle_side_right_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 25
+        y: 17
+        width: 15
+        height: 25
+      spriteId: dfb540715bce03142989a6d7e63298e7
+    - name: Unarmed_Idle_side_right_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 25
+        y: 17
+        width: 15
+        height: 25
+      spriteId: 5191c4de7c3552846ae6850a1040928a
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
