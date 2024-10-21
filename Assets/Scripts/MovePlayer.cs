@@ -1,20 +1,23 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MovePlayer : MonoBehaviour
 {
     private Animator animator;
-    [SerializeField] public int speed = 10;
+    [SerializeField] public int speed;
     private Rigidbody2D rb;
     [SerializeField] public Vector2 movementVector;
     private Vector3 difference;
-    public GameObject endLevel;
-    void Start()
+
+    void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
+
     private void Update()
     {
+        SetDirectionValues();
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             animator.SetTrigger("Attack");
@@ -23,35 +26,47 @@ public class MovePlayer : MonoBehaviour
             difference.z = 0;
         }
     }
+
     void FixedUpdate()
     {
         Movement();
-        SetDerictionValues();
     }
-    public void SetDerictionValues()
+
+    public void SetDirectionValues()
     {
         animator.SetFloat("DirectionX", movementVector.x);
         animator.SetFloat("DirectionY", movementVector.y);
     }
+
     public void Movement()
     {
-        animator.SetBool("move", true);
-        movementVector.x = Input.GetAxis ("Horizontal");
-        movementVector.y = Input.GetAxis ("Vertical");
-        rb.MovePosition(rb.position + movementVector * speed * Time.fixedDeltaTime);
+        movementVector.x = Input.GetAxis("Horizontal");
+        movementVector.y = Input.GetAxis("Vertical");
 
-        if (movementVector.x == 0 && movementVector.y == 0)
+        if (movementVector != Vector2.zero)
+        {
+            animator.SetBool("move", true);
+
+             rb.MovePosition(rb.position + movementVector * (speed * Time.fixedDeltaTime));
+        }
+        else
         {
             animator.SetBool("move", false);
+
+            rb.velocity = Vector2.zero;
         }
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("End"))
+        if (movementVector != Vector2.zero && Input.GetKey(KeyCode.LeftShift))
         {
-            this.gameObject.GetComponent<Rigidbody2D>().position = Vector2.zero;
-            this.gameObject.GetComponent<MovePlayer>().enabled = false;
-            endLevel.gameObject.SetActive(true);
+            speed = 8;
+            animator.SetBool("move", false);
+            animator.SetBool("isShift", true);
+            rb.MovePosition(rb.position + movementVector * (speed * Time.fixedDeltaTime));
+        }
+        else
+        {
+            speed = 4;
+
+            animator.SetBool("isShift", false);
         }
     }
 }
